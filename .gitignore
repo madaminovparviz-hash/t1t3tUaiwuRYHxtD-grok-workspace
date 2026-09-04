@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and output directories
+.output/
+.vercel/
+.nitro/
+dist/
+
+# TanStack Router cache
+.tanstack/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temporary / Sandbox artifacts
+.node_modules.lock
+artifacts/
+screenshots/
+*.log
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
